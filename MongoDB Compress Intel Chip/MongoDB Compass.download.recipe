@@ -12,7 +12,7 @@ To download the Apple Silicon version use "arm64" in DOWNLOAD_TYPE</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>MongoDB Compass amd64</string>
+        <string>MongoDB Compass</string>
         <key>DOWNLOAD_TYPE</key>
         <string>x64</string>
     </dict>
