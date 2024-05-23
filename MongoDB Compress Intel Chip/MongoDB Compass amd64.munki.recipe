@@ -8,7 +8,7 @@
 For Intel use: "x86_64" in the SUPPORTED_ARCH variable
 For Apple Silicon use: "arm64" in the SUPPORTED_ARCH variable</string>
     <key>Identifier</key>
-    <string>com.github.sabay-digital-corp.munki.MongoDB Compass</string>
+    <string>com.github.sabay-digital-corp.munki.MongoDB Compass amd64</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
