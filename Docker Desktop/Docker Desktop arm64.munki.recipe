@@ -41,7 +41,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>de.sabay-digital-corp.download.Docker arm64</string>
+	<string>com.github.sabay-digital-corp.download.Docker arm64</string>
 	<key>Process</key>
 	<array>
 		<dict>
