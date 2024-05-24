@@ -18,7 +18,7 @@ required to support Apple Silicon Macs.</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Docker</string>
+		<string>Docker-amd64</string>
 		<key>PLATFORM_ARCH</key>
 		<string>amd64</string>
 	</dict>
