@@ -21,25 +21,19 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string> This program is developer using </string>
 			<key>developer</key>
 			<string>Docker Inc</string>
 			<key>display_name</key>
 			<string>Docker</string>
 			<key>name</key>
 			<string>%NAME%</string>
-			<key>category</key>
-			<string>Administration</string>
-			<key>icon_name</key>
-			<string>Docker.png</string>
-			<key>installable_condition</key>
-			<string>arch == "x86_64"</string>
 			<key>unattended_install</key>
 			<false/>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>1.1</string>
 	<key>ParentRecipe</key>
 	<string>com.github.sabay-digital-corp.munki.Docker amd64</string>
 	<key>Process</key>
