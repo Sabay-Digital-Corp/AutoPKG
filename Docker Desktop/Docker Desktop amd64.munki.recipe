@@ -13,7 +13,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Docker-Intel</string>
+		<string>Docker-amd64</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
