@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<string>Created with Recipe Robot v2.2.1 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Docker and imports it into Munki.</string>
+	<string>Downloads the latest version of Docker Desktop and imports it into Munki. See the download recipe description for information about using the PLATFORM_ARCH input variable to download the Intel/Apple Silicon version of Docker.</string>
 	<key>Identifier</key>
-	<string>com.github.sabay-digital-corp.munki.Docker amd64</string>
+	<string>com.github.sabay-digital-corp.munki.DockerDesktop</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Docker-amd64</string>
+		<string>Docker-Intel</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,21 +21,21 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string> This program is developer using </string>
+			<string>Automates deployment of containerized applications.</string>
 			<key>developer</key>
-			<string>Docker Inc</string>
+			<string>Docker</string>
 			<key>display_name</key>
 			<string>Docker</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.1</string>
+	<string>1.4.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.sabay-digital-corp.munki.Docker amd64</string>
+	<string>com.github.sabay-digital-corp.download.DockerDesktop</string>
 	<key>Process</key>
 	<array>
 		<dict>
