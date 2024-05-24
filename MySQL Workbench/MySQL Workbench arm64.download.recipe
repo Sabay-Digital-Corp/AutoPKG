@@ -10,7 +10,7 @@ Set the ARCH input variable based on the desired architecture:
 - "arm64" - Apple Silicon
 </string>
 	<key>Identifier</key>
-	<string>com.github.sabay-digital-corp.download.MySQL Workbench arm6464</string>
+	<string>com.github.sabay-digital-corp.download.MySQL Workbench arm64</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
